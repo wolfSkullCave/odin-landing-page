@@ -15,8 +15,7 @@ header,
   display: flex;
 }
 
-header,
-.hero {
+.dark-bg {
   background-color: #1f2937;
   color: white;
 }
@@ -90,4 +89,44 @@ main {
 
   display: flex;
   flex-flow: column nowrap;
+}
+
+main ul {
+  display: flex;
+  gap: 50px;
+  /* text-align: center; */
+  justify-content: space-evenly;
+}
+
+.cards {
+  /* max-width: 800px; */
+  margin: 30px auto;
+}
+
+.card-empty {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3b82f6;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.cards p {
+  max-width: 200px;
+}
+
+/* component class */
+
+.list-no-style {
+  list-style: none;
+}
+
+.light-grey-bg {
+  background-color: grey;
+}
+
+section {
+  display: flex;
+  flex-flow: column;
+  max-width: 1200px;
 }
