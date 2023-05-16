@@ -71,3 +71,56 @@ nav ul li a {
 .hero-txt {
   flex: 1;
 }
+
+/* home page section #1 */
+.center-text {
+  text-align: center;
+}
+
+.cards ul {
+  /* text-align: center; */
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  gap: 20px;
+}
+
+.card-empty {
+  border: 3px solid #3b82f6;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* #fold {
+  background-color: beige;
+} */
+
+/* home page call to action */
+
+#cta {
+  text-align: right;
+  background-color: #e5e7eb;
+}
+
+#cta section {
+  max-width: 800px;
+  min-height: 300px;
+  /* padding: 80px 0; */
+
+  text-align: justify;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+#cta p {
+  text-align: right;
+}
